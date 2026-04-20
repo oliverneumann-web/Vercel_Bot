@@ -1,5 +1,5 @@
-import { processFiles } from '../lib/fileProcessing.js';
-import { verifySlackRequest } from '../lib/slackVerify.js';
+import { processFiles } from '../../lib/fileProcessing.js';
+import { verifySlackRequest } from '../../lib/slackVerify.js';
 
 export const config = {
   api: { bodyParser: false }
